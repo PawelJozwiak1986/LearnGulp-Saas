@@ -18,8 +18,20 @@ body {
       margin: 0 auto;
       font-family: 'Ubuntu', italic; }
 
+.lang__links {
+  display: flex;
+  padding-top: 100px;
+  justify-content: center; }
+  .lang__links--link {
+    justify-content: space-between;
+    text-decoration: none;
+    color: #000;
+    padding-left: 8px; }
+  .lang__links:hover {
+    color: white; }
+
 .present {
-  height: 40vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
   background: #ced1c7;
@@ -117,7 +129,7 @@ body {
   margin-left: 114px;
   padding-right: 0px;
   margin-right: 136px; }
-  .skills __describe {
+  .skills__describe {
     height: 40px;
     text-align: center;
     padding-bottom: 12px;

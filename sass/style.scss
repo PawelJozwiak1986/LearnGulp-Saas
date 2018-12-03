@@ -22,9 +22,23 @@ body {
   }
   
 }
+.lang__links{
+  display: flex;
+  padding-top: 100px;
+  justify-content: center;
+  &--link{
+    justify-content: space-between;
+    text-decoration: none;
+    color: #000;
+    padding-left: 8px;
+  }
+  &:hover{
+    color: white;
+  }
+}
 
 .present {
-  height: 40vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
   background: #ced1c7;
@@ -134,7 +148,7 @@ body {
   margin-left: 114px;
   padding-right: 0px;
   margin-right: 136px;
-  & __describe {
+  &__describe {
     height: 40px;
     text-align: center;
     padding-bottom: 12px;
@@ -177,6 +191,7 @@ footer {
   font-size: 18px;
   height: 90px;
   justify-content: space-between;
+  align-items: center;
   &__text{
     margin-top: 31px;
     margin-left: 30px;
@@ -186,6 +201,6 @@ footer {
 
 .social__links {
   display: flex;
-  align-items: center;
+  
   margin: 15px;
 }
