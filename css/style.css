@@ -164,7 +164,8 @@ footer {
   color: white;
   font-size: 18px;
   height: 90px;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center; }
   footer__text {
     margin-top: 31px;
     margin-left: 30px;
@@ -172,5 +173,4 @@ footer {
 
 .social__links {
   display: flex;
-  align-items: center;
   margin: 15px; }
